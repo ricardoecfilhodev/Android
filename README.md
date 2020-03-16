@@ -1,16 +1,18 @@
 # Android
 # Calculadora Simples Android
 # MainActive.java
-package br.com.ricardo.calcproject;
 
-import android.os.Bundle;
-import androidx.appcompat.app.AppCompatActivity;
-import android.widget.Button;
-import android.widget.EditText;
-import android.widget.TextView;
-import android.widget.Toast;
 
-public class MainActivity extends AppCompatActivity {
+    package br.com.ricardo.calcproject;
+
+    import android.os.Bundle;
+    import androidx.appcompat.app.AppCompatActivity;
+    import android.widget.Button;
+    import android.widget.EditText;
+    import android.widget.TextView;
+    import android.widget.Toast;
+
+    public class MainActivity extends AppCompatActivity {
     EditText numero1EditText;
     EditText numero2EditText;
     Button adicaoButton;
